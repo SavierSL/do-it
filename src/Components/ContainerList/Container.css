@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+  margin: 0.3rem auto;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.button-container {
+  border: none;
+  margin-left: 1rem;
+  padding: 1rem;
+  width: 6rem;
+}
+.delete {
+  background: rgb(255, 176, 176);
+  cursor: pointer;
+  color: rgb(38, 0, 0);
+}
+.done {
+  background: rgb(175, 220, 255);
+  cursor: pointer;
+}
